@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="80dp" android:height="80dp" android:viewportWidth="100" android:viewportHeight="100">
+    <!--  Cabeza (semicírculo)  -->
+    <path android:fillColor="#2B2B2B" android:pathData="M20,45 Q20,20 50,20 Q80,20 80,45 Z"/>
+    <!--  Cuerpo  -->
+    <path android:fillColor="#2B2B2B" android:pathData="M18,47 L18,72 Q18,80 26,80 L34,80 L34,92 Q34,97 39,97 Q44,97 44,92 L44,80 L56,80 L56,92 Q56,97 61,97 Q66,97 66,92 L66,80 L74,80 Q82,80 82,72 L82,47 Z"/>
+    <!--  Ojo izquierdo (blanco)  -->
+    <path android:fillColor="#FFFFFF" android:pathData="M34,33 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <!--  Ojo derecho (blanco)  -->
+    <path android:fillColor="#FFFFFF" android:pathData="M66,33 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <!--  Brazo izquierdo  -->
+    <path android:fillColor="#2B2B2B" android:pathData="M8,48 Q2,48 2,56 L2,70 Q2,78 8,78 L18,78 L18,48 Z"/>
+    <!--  Brazo derecho  -->
+    <path android:fillColor="#2B2B2B" android:pathData="M82,48 L92,48 Q98,48 98,56 L98,70 Q98,78 92,78 L82,78 Z"/>
+    <!--  Antena izquierda  -->
+    <path android:strokeColor="#2B2B2B" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M36,20 L26,8"/>
+    <path android:fillColor="#2B2B2B" android:pathData="M26,6 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"/>
+    <!--  Antena derecha  -->
+    <path android:strokeColor="#2B2B2B" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M64,20 L74,8"/>
+    <path android:fillColor="#2B2B2B" android:pathData="M74,6 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"/>
+</vector>

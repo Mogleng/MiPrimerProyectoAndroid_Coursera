@@ -1,0 +1,8 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="360dp" android:height="80dp" android:viewportWidth="360" android:viewportHeight="80">
+    <!--  Fondo blanco inferior  -->
+    <path android:fillColor="#FFFFFF" android:pathData="M0,60 L360,60 L360,80 L0,80 Z"/>
+    <!--  Nubes blancas (silueta ondulada)  -->
+    <path android:fillColor="#FFFFFF" android:pathData=" M0,65 Q15,45 30,55 Q45,38 60,52 Q75,35 90,50 Q105,30 120,48 Q135,32 150,50 Q165,28 180,46 Q195,30 210,50 Q225,35 240,52 Q255,38 270,50 Q285,42 300,54 Q315,36 330,52 Q345,44 360,58 L360,80 L0,80 Z"/>
+    <!--  Segunda capa de nubes (más clara, profundidad)  -->
+    <path android:fillColor="#E3F2FD" android:pathData=" M0,72 Q20,58 40,65 Q60,50 80,62 Q100,52 120,63 Q140,55 160,64 Q180,54 200,65 Q220,56 240,64 Q260,52 280,63 Q300,56 320,65 Q340,58 360,66 L360,80 L0,80 Z"/>
+</vector>
